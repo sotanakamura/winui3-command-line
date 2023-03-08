@@ -1,1 +1,1 @@
-*.cmd -linguist-vendored
+build.cmd -linguist-vendored
