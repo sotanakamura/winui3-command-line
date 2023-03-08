@@ -28,13 +28,13 @@ build
 1. Install Windows App SDK Runtime.
 
     ```
-    winget install "Windows App SDK" --id Microsoft.WindowsAppRuntime.1.2
+    winget install --id Microsoft.WindowsAppRuntime.1.2
     ```
     
 1. Install NuGet CLI.
 
     ```
-    winget install NuGet --id Microsoft.NuGet
+    winget install --id Microsoft.NuGet
     ```
 
 ## Build a WinUI 3 app
