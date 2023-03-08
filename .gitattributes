@@ -1,1 +1,1 @@
-*.cmd -linguist-vendored
+*.cmd -linguist-vendored=true
