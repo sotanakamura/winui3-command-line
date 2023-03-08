@@ -1,3 +1,6 @@
+winget install "Visual Studio Community 2022"  --override "--add Microsoft.VisualStudio.Workload.NativeDesktop  Microsoft.VisualStudio.ComponentGroup.WindowsAppSDK.Cpp" -s msstore
+winget install "Windows App SDK" --id Microsoft.WindowsAppRuntime.1.2
+winget install NuGet --id Microsoft.NuGet
 nuget install Microsoft.Windows.CppWinRT -OutputDirectory packages
 nuget install Microsoft.WindowsAppSDK -OutputDirectory packages 
 packages\Microsoft.Windows.CppWinRT.2.0.230225.1\bin\cppwinrt.exe -optimize -input packages\Microsoft.WindowsAppSDK.1.2.230217.4\lib\uap10.0 -input packages\Microsoft.WindowsAppSDK.1.2.230217.4\lib\uap10.0.18362 -input sdk -output "Generated Files"
