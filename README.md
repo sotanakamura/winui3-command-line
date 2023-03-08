@@ -1,5 +1,5 @@
-# Build WinUI 3 Apps with Command Line Tools
-This repository provides information about how to build WinUI 3 apps with commnad line tools.
+# Build C++ WinUI 3 Apps with Command Line Tools
+This repository provides information about how to build C++ WinUI 3 apps with commnad line tools.
 
 ## Build a sample
 You can build a sample app easily.
