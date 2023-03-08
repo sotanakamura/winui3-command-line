@@ -25,7 +25,7 @@ build
     winget install "Visual Studio Community 2022"  --override "--add Microsoft.VisualStudio.Workload.NativeDesktop  Microsoft.VisualStudio.ComponentGroup.WindowsAppSDK.Cpp" -s msstore
     ```
 
-1. Install Windows App SDK Runtime.
+1. Install Windows App Runtime.
 
     ```
     winget install --id Microsoft.WindowsAppRuntime.1.2
@@ -59,7 +59,7 @@ build
     packages\Microsoft.Windows.CppWinRT.2.0.230225.1\bin\cppwinrt.exe -optimize -input packages\Microsoft.WindowsAppSDK.1.2.230217.4\lib\uap10.0 -input packages\Microsoft.WindowsAppSDK.1.2.230217.4\lib\uap10.0.18362 -input sdk -output "Generated Files"
     ```
 
-1. Copy DLL file for bootstop.
+1. Copy DLL file for bootstrap.
 
     ```
     copy packages\Microsoft.WindowsAppSDK.1.2.230217.4\runtimes\win10-x64\native\Microsoft.WindowsAppRuntime.Bootstrap.dll .
