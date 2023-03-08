@@ -39,7 +39,7 @@ build
 
 ## Build a WinUI 3 app
 
-1. Create a project folder
+1. Open x64 Native Tools Command Prompt for VS 2022 and then create a project folder
 
     ```
     mkdir project
