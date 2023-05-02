@@ -101,6 +101,12 @@ build
     ```
     cl /I"packages\Microsoft.WindowsAppSDK.1.2.230217.4\include" /I"Generated Files" /EHsc /std:c++17 main.cpp /link /LIBPATH:"packages\Microsoft.WindowsAppSDK.1.2.230217.4\lib\win10-x64" Microsoft.WindowsAppRuntime.Bootstrap.lib Microsoft.WindowsAppRuntime.lib WindowsApp.lib /SUBSYSTEM:WINDOWS /MANIFEST:EMBED
     ```
+    
+    or
+    
+    ```
+    g++ -std=c++20 -municode -I "packages\Microsoft.WindowsAppSDK.1.3.230331000\include" -I "Generated Files" main.cpp -L "packages\Microsoft.WindowsAppSDK.1.3.230331000\lib\win10-x64" -l Microsoft.WindowsAppRuntime.Bootstrap -l Microsoft.WindowsAppRuntime -l WindowsApp -l ole32 -l oleaut32
+    ```
 
 1. Execute the WinUI 3 app
 
