@@ -118,3 +118,4 @@ build
 
 * [WinUI 3 in C++ without XAML](https://github.com/sotanakamura/winui3-without-xaml)
 * [WinUI 3 in C++ and XAML without MIDL](https://github.com/sotanakamura/winui3-without-midl)
+* [MinGW WinUI 3 Demo](https://github.com/driver1998/WinUI-MinGW) by [driver1998](https://github.com/driver1998)
